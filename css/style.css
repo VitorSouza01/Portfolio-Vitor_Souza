@@ -52,7 +52,13 @@ section {
 }
 
 .hero h1 {
-	font-size: 3rem;
+	font-size: 5rem;
+	/* font-size: 5rem; */
+	margin-bottom: 1rem;
+}
+
+.hero p {
+	font-size: 2rem;
 	margin-bottom: 1rem;
 }
 
@@ -62,22 +68,31 @@ h1 {
 
 /* Sobre - Conteudo */
 .sobre-conteudo {
-	display: felx;
+	display: flex;
 	align-items: center;
-	gap: 2rem;
-	max-width: 1200px;
-	margin: 0;
+	gap: 20px;
+	padding: 20px;
+	/* gap: 2rem; */
+	/* max-width: 1200px; */
+	/* margin: 0; */
 
 }
 
 .sobre-conteudo img {
 	width: 300px;
-	border-radius: 0%;
+	border-radius: 10px;
+	/* border-radius: 0%;  */
+}
+
+.sobre-conteudo p {
+	max-width: 600px;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 /* Skills - Conteudo */
 .skills-conteudo {
-	display: felx;
+	display: flex;
 	align-items: center;
 	gap: 2rem;
 	max-width: 1200px;
