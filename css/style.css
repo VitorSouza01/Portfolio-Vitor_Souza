@@ -10,6 +10,14 @@ body {
 	/*background: #E6EAE1;*/
 }
 
+h2 {
+	font-size: 2.5rem;
+	color: #333;
+	text-align: center;
+	margin-bottom: 2rem;
+	position: relative;
+}
+
 /* Navegação */
 header {
 	background: #333;
@@ -85,23 +93,54 @@ h1 {
 }
 
 .sobre-conteudo p {
-	max-width: 600px;
-	font-size: 18px;
+	width: 100%;
+	/* max-width: 600px; */
+	font-size: 24px;
 	line-height: 1.6;
+	text-align: justify;
 }
 
 /* Skills - Conteudo */
 .skills-conteudo {
-	display: flex;
+	/* display: flex;
 	align-items: center;
 	gap: 2rem;
 	max-width: 1200px;
-	margin: 0;
+	margin: 0; */
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+	padding: 2rem 0;
 }
 
 .skills-conteudo img {
 	width: 300px;
 	border-radius: 50%;
+}
+
+.skill-box {
+	background: #ffffff;
+	padding: 1.5rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-box:hover {
+	box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.skill-box h3 {
+	margin-bottom: 1rem;
+	color: #333;
+	font-size: 1.5rem;
+}
+
+.skill-box p {
+	color: #666;
+	font-size: 1rem;
 }
 
 /* Projeto - Conteudo */
