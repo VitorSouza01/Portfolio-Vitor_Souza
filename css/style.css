@@ -21,16 +21,27 @@ h2 {
 /* Navegação */
 header {
 	background: #333;
-	padding: 1rem;
+	padding: 1rem 2rem;
 	position: fixed;
 	width: 100%;
 	top: 0;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+}
+
+nav {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 nav ul {
 	list-style: none;
 	display: flex;
-	justify-content: flex-end;
+	/* justify-content: flex-end; */
+	gap: 2rem;
 }
 
 nav ul li {
@@ -40,6 +51,11 @@ nav ul li {
 nav ul li a {
 	color: white;
 	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1rem;
+	letter-spacing: 1px;
+	transition: color 0.3s ease;
 }
 
 /* Sections  */
