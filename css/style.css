@@ -169,15 +169,45 @@ h1 {
 }
 
 .projetos-conteudo {
-	background: white;
-	padding: 1rem;
-	border-radius: 8px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .projetos-conteudo img {
 	width: 100%;
-	border-radius: 4px;
+    max-width: 300px;        /* largura máxima da imagem */
+    height: 180px;           /* altura fixa para padronizar */
+    object-fit: cover;       /* recorta a imagem proporcionalmente sem distorcer */
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto 10px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.projetos-conteudo .btn {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.projetos-conteudo .btn:hover {
+    background-color: #333;
 }
 
 /*
