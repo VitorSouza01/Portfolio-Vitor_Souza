@@ -53,5 +53,6 @@ Sinta-se à vontade para me chamar para bater um papo, colaborar em projetos ou 
 
 ## 📸 Preview
 
-Você pode ver o site funcionando acessando o arquivo `index.html` localmente, ou hospedá-lo via GitHub Pages:
-
+Abaixo serão apresentados prints visuais do portfólio, ilustrando o layout, as seções (Home, Sobre, Skills, Projetos, Contato) e a organização dos elementos. Você também pode visualizar o site localmente abrindo o arquivo `index.html`, ou ...:
+![img_1](https://github.com/user-attachments/assets/9605a38b-26ec-43cc-9a44-b24f41445fcd)
+![img_3](https://github.com/user-attachments/assets/4fb45934-33f2-48fe-9762-11d2954e0191)
